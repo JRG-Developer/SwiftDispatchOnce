@@ -20,6 +20,16 @@ DispatchQueue.once(token: "com.mydomain.uniqueName") {
 }
 ```
 
+### Installation with CocoaPods
+
+The easiest way to add `SwiftDispatchOnce ` to your project is using <a href="http://cocoapods.org/">CocoaPods</a>. 
+
+Simply add the following line to your Podfile:
+
+    pod 'SwiftDispatchOnce', '~> 1.0'
+
+Then run `pod install` as you normally would.
+
 ## Attribution
 
 This library was created thanks to this StackOverflow post:
