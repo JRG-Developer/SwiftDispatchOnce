@@ -26,7 +26,7 @@ This library was created thanks to this StackOverflow post:
 
 [https://stackoverflow.com/questions/37886994/dispatch-once-in-swift-3](https://stackoverflow.com/questions/37886994/dispatch-once-in-swift-3)
 
-Thanks you for posting, [David](https://stackoverflow.com/users/378698/david), [Tod Cunningham](https://stackoverflow.com/users/298571/tod-cunningham) and [VaporwareWolf](https://stackoverflow.com/users/803882/vaporwarewolf).
+Thank you for posting, [David](https://stackoverflow.com/users/378698/david), [Tod Cunningham](https://stackoverflow.com/users/298571/tod-cunningham) and [VaporwareWolf](https://stackoverflow.com/users/803882/vaporwarewolf).
 
 ## License
 
