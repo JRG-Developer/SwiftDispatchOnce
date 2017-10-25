@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.platform              = :ios
   s.ios.deployment_target = '9.0'
   s.name          = "SwiftDispatchOnce"
-  s.version       = "1.0.0"
+  s.version       = "2.0.0"
   s.summary       = "SwiftDispatchOnce adds an extension on DispatchQueue for performing a closure only once"
   s.homepage      = "https://github.com/JRG-Developer/SwiftDispatchOnce"
   s.license       = { :type => "MIT", :file => "LICENSE" }
