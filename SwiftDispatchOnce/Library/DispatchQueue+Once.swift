@@ -39,7 +39,7 @@ public extension DispatchQueue {
   ///   - function: The function name, defaults to current function name
   ///   - line: The line number, defaults to current line number
   ///   - closure: The closure to execute once
-  public class func once(file: String = #file, function: String = #function, line: Int = #line, closure:(Void)->Void) {
+  public class func once(file: String = #file, function: String = #function, line: Int = #line, closure: () -> Void) {
     let token = file + ":" + function + ":" + String(line)
     once(token: token, closure: closure)
   }
@@ -50,7 +50,7 @@ public extension DispatchQueue {
   /// - Parameters:
   ///   - token: A unique reverse DNS style name such as software.harmony.<name> or a GUID
   ///   - closure: The closure to execute once
-  public class func once(token: String, closure:(Void)->Void) {
+  public class func once(token: String, closure: () -> Void) {
     objc_sync_enter(self)
     defer { objc_sync_exit(self) }
     if _onceTracker.contains(token) { return }
